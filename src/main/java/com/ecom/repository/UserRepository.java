@@ -8,6 +8,6 @@ import com.ecom.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-	User save(User userData);
+
 
 }
